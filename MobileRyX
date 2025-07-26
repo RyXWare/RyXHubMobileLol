@@ -1,0 +1,9 @@
+if game.PlaceId == 105788818579323 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RyXWare/RyXHubMobile/main/MobileRyX"))()
+else
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "RyX Hub";
+        Text = "GAME NOT SUPPORTED (yet?) 🤔";
+        Duration = 10;
+    })
+end
